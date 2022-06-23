@@ -1,0 +1,20 @@
+{
+  "name": "autobackupmongodb",
+  "version": "1.0.0",
+  "description": "Mongo DB Automatic import and export backup in Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.hpe.com/raajeive-k/AutoBackupMongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.1",
+    "python-shell": "^3.0.1",
+    "uuid": "^8.3.2"
+  }
+}
